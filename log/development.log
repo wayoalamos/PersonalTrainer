@@ -981,3 +981,19 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 231ms (Views: 221.0ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/users" for 127.0.0.1 at 2017-11-07 22:59:05 -0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-07 22:59:22 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb (33.5ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
