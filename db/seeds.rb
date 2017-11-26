@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-user = User.create([{ name: 'Martin' }, { name: 'Lorenzo' }])
+e1 = Exercise.create(title: "Push ups", time: 30)
+User.create([{ name: 'Martin', exercise_id: e1.id}, { name: 'Lorenzo' , exercise_id: e1.id}])
